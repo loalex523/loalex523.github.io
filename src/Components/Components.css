@@ -1,0 +1,47 @@
+@font-face{
+    src: url(./fonts/CircularStd-Medium.otf);
+    font-family: circularstd;
+}
+
+/* TITLE-Container*/
+.title-container{
+    display: grid;
+    justify-items: left;
+    grid-gap: 7.5px;
+}
+
+.name{
+    font-family: circularstd;
+    font-size: 25px;
+    line-height: 20px;
+}
+
+.title{
+    font-family: circularstd;
+    font-size: 20px;
+    line-height: 20px;
+}
+
+.goal{
+    font-family: circularstd;
+    font-size: 20px;
+    line-height: 20px;
+    color: orange;
+}
+
+/* Navbar-Container*/
+.navbar-container{
+    font-family: circularstd;
+    display: grid;
+    justify-items: left;
+    grid-gap: 7.5px;
+    grid-template-columns: repeat();
+}
+.navButton{
+    background-color: white;
+    color: black;
+    font-size: 25px;
+    font-family: circularstd;
+    border: none;
+    outline: none;
+}
