@@ -8,13 +8,13 @@ function Navbar(){
     return(
         <div className='navbar-container'>
             <Link to="./projects">
-                <motion.button whileHover={{opacity: 0.3}} whileTap={{scale: 0.9}} className='navButton' exact to='/' activeClassName="active"> Projects </motion.button>  
+                <motion.a whileHover={{opacity: 0.3}} whileTap={{scale: 0.9}} className='navButton'> Projects </motion.a>  
             </Link>
             <Link to="./about">
-                <motion.button whileHover={{opacity: 0.3}} whileTap={{scale: 0.9}} className='navButton'> About Me </motion.button>
+                <motion.a whileHover={{opacity: 0.3}} whileTap={{scale: 0.9}} className='navButton'> About Me </motion.a>
             </Link>
             <Link to="./contact">
-                <motion.button whileHover={{opacity: 0.3}} whileTap={{scale: 0.9}} className='navButton'> Contact </motion.button>            
+                <motion.a whileHover={{opacity: 0.3}} whileTap={{scale: 0.9}} className='navButton'> Contact </motion.a>            
             </Link>
         </div>      
     )

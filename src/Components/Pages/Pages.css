@@ -1,0 +1,10 @@
+.about-container{
+    position: sticky;
+    display: grid;
+    align-self: center;
+    grid-template-areas: 'left center right';
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 80px;
+    grid-gap: 5px;
+    width: 360px;
+}

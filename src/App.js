@@ -16,16 +16,16 @@ function App() {
       </div>
       <div>
         <Navbar className='navbar-container'/>
-        <Switch>
+        
+      </div>
+    </div>
+    <Switch>
             <Route path="/projects" component={ Projects }/>  
             <Route path="/about" component={ About }/>
             <Route path="/contact" component={ Contact }/>
         </Switch>
-      </div>
-    </div>
     </Router>
     
   );
 }
-
 export default App;

@@ -44,4 +44,13 @@
     font-family: circularstd;
     border: none;
     outline: none;
+    text-decoration: none;
+}
+
+.navButton:target{
+    color: orange;
+}
+
+a {
+    text-decoration: none;
 }
