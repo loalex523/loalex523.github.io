@@ -16,14 +16,13 @@ function App() {
       </div>
       <div>
         <Navbar className='navbar-container'/>
-        
       </div>
     </div>
     <Switch>
             <Route path="/projects" component={ Projects }/>  
             <Route path="/about" component={ About }/>
             <Route path="/contact" component={ Contact }/>
-        </Switch>
+    </Switch>
     </Router>
     
   );

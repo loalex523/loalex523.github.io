@@ -32,12 +32,14 @@
 /* Navbar-Container*/
 .navbar-container{
     font-family: circularstd;
+    color: black;
     display: grid;
     justify-items: left;
     grid-gap: 7.5px;
     grid-template-columns: repeat();
 }
 .navButton{
+    line-height: 20px;
     background-color: white;
     color: black;
     font-size: 25px;
@@ -45,11 +47,11 @@
     border: none;
     outline: none;
     text-decoration: none;
+    cursor: pointer;
 }
-
 .navButton:target{
     color: orange;
-}
+} */
 
 a {
     text-decoration: none;

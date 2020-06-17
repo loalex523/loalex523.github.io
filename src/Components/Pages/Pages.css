@@ -1,10 +1,20 @@
 .about-container{
-    position: sticky;
     display: grid;
-    align-self: center;
-    grid-template-areas: 'left center right';
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 80px;
-    grid-gap: 5px;
-    width: 360px;
+    text-align: center;
+    grid-template-areas: "title about";
+    grid-template-columns: 100vw 300px;
+    grid-template-rows: 60px 500px;
+}
+
+.about-title{
+    grid-area: title;
+    font-family: circularstd;
+    font-size: 40px;
+}
+
+.about-me{
+    grid-area: about;
+    font-family: circularstd;  
+    font-size: 20px !important;
+    padding: 20px;
 }
