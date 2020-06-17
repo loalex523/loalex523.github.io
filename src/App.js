@@ -9,9 +9,10 @@ import Projects from './Components/Pages/Projects'
 //import { Contact } from './Components/Pages/Contact'
 function App() {
   return (
+    <div class='body'>
     <Router>
-    <div className='header-container'>
-      <div className='title-container'>
+      <div className='header-container'>
+        <div className='title-container'>
         <Title/>
       </div>
       <div className='navbar-box'>
@@ -19,11 +20,13 @@ function App() {
       </div>
     </div>
     <Switch>
-            <Route path="/projects" component={ Projects }/>  
-            <Route path="/about" component={ About }/>
-            <Route path="/contact" component={ Contact }/>
+        <Route exact path="/" component={ Projects }/>  
+        <Route exact path="/about" component={ About }/>
+        <Route exact path="/contact" component={ Contact }/>
       </Switch>
     </Router>
+    
+    </div>
     
   );
 }

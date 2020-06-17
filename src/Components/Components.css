@@ -20,6 +20,7 @@
     font-family: circularstd;
     font-size: 25px;
     line-height: 20px;
+    
 }
 
 .goal{
@@ -46,4 +47,8 @@
     border: none;
     outline: none;
     cursor: pointer;
+}
+
+.nav-active{
+    border-bottom: 2px solid orange;    
 }

@@ -1,22 +1,21 @@
 import React from 'react'
 import './Components.css'
-
-import { Link } from 'react-router-dom'
+import { Link, NavLink, Redirect } from 'react-router-dom'
 import { motion } from "framer-motion"
 
 
 function Navbar(){
     return(
         <div className='navbar-container'>
-            <Link to="./projects">
-                <motion.button id="navProjects" whileHover={{opacity: 0.3}} whileTap={{scale: 0.9}} className='navButton'> Projects </motion.button>  
-            </Link>
-            <Link to="./about">
-                <motion.button id="navAbout" whileHover={{opacity: 0.3}} whileTap={{scale: 0.9}} className='navButton'> About Me </motion.button>
-            </Link>
-            <Link to="./contact">
-                <motion.button id="navContacts" whileHover={{opacity: 0.3}} whileTap={{scale: 0.9}} className='navButton'> Contact </motion.button>            
-            </Link>
+            <NavLink exact to="./" activeClassName='nav-active'>
+                <motion.button whileHover={{opacity: 0.5}} whileTap={{scale: 0.9}} className='navButton'> Projects </motion.button>  
+            </NavLink>
+            <NavLink to="./about" activeClassName='nav-active'>
+                <motion.button whileHover={{opacity: 0.5}} whileTap={{scale: 0.9}} className='navButton'> About Me </motion.button>
+            </NavLink>
+            <NavLink to="./contact" activeClassName='nav-active'>
+                <motion.button whileHover={{opacity: 0.5}} whileTap={{scale: 0.9}} className='navButton'> Contact </motion.button>            
+            </NavLink>
         </div>      
     )
 }
