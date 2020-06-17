@@ -10,19 +10,19 @@ import Projects from './Components/Pages/Projects'
 function App() {
   return (
     <Router>
-    <div className='main-container'>
+    <div className='header-container'>
       <div className='title-container'>
-        <Title className='title-container'/>
+        <Title/>
       </div>
-      <div>
-        <Navbar className='navbar-container'/>
+      <div className='navbar-box'>
+        <Navbar/>      
       </div>
     </div>
     <Switch>
             <Route path="/projects" component={ Projects }/>  
             <Route path="/about" component={ About }/>
             <Route path="/contact" component={ Contact }/>
-    </Switch>
+      </Switch>
     </Router>
     
   );

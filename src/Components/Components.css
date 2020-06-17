@@ -18,13 +18,13 @@
 
 .title{
     font-family: circularstd;
-    font-size: 20px;
+    font-size: 25px;
     line-height: 20px;
 }
 
 .goal{
     font-family: circularstd;
-    font-size: 20px;
+    font-size: 25px;
     line-height: 20px;
     color: orange;
 }
@@ -36,7 +36,6 @@
     display: grid;
     justify-items: left;
     grid-gap: 7.5px;
-    grid-template-columns: repeat();
 }
 .navButton{
     line-height: 20px;
@@ -46,13 +45,5 @@
     font-family: circularstd;
     border: none;
     outline: none;
-    text-decoration: none;
     cursor: pointer;
-}
-.navButton:target{
-    color: orange;
-} */
-
-a {
-    text-decoration: none;
 }

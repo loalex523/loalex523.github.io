@@ -9,7 +9,6 @@ function Title(){
                 <div className='title'> Student @ UT Dallas </div>
                 <div className='goal'> Aspiring Software Engineer </div>
             </div>
-            
         </div>
     )
 }
