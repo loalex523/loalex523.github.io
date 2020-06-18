@@ -9,7 +9,7 @@ import Projects from './Components/Pages/Projects'
 //import { Contact } from './Components/Pages/Contact'
 function App() {
   return (
-    <div class='body'>
+    <div className='body'>
     <Router>
       <div className='header-container'>
         <div className='title-container'>

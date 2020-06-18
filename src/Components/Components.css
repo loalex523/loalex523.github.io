@@ -33,22 +33,40 @@
 /* Navbar-Container*/
 .navbar-container{
     font-family: circularstd;
-    color: black;
-    display: grid;
+    display: flex;
+    flex-direction: column;
     justify-items: left;
-    grid-gap: 7.5px;
+    column-gap: 7.5px;
 }
 .navButton{
+    padding: 6px;
     line-height: 20px;
-    background-color: white;
-    color: black;
+    background-color: transparent;
     font-size: 25px;
     font-family: circularstd;
+    text-decoration: none;
     border: none;
     outline: none;
     cursor: pointer;
 }
+.navButton:after 
+{
+    content: '';
+    display: block;
+    height: 3px;
+    width: 0;
+    transition: .5s;
+    margin: auto; 
+}
+ 
+/* Change the width and background on hover, aka sliding from the middle to the left and right */
+.navButton:hover:after 
+{
+    width: 100%;
+    background: orange;
+}
 
 .nav-active{
-    border-bottom: 2px solid orange;    
-}
+    transition: 1s;
+    transform: translateX(25px);
+} 

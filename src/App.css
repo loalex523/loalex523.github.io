@@ -1,7 +1,8 @@
 body{
-    width: 850px;
+    width: 550px;
     margin-left: auto;
     margin-right: auto;
+    justify-content: space-evenly;
 }
 .header-container {
     display: flex;
@@ -16,8 +17,4 @@ body{
 }
 
 .navbar-box{
-}
-
-@media (min-width: 600px){
-      
 }
