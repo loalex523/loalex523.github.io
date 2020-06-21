@@ -6,9 +6,11 @@ import Navbar from './Components/Navbar'
 import About from './Components/Pages/About'
 import Contact from './Components/Pages/Contact'
 import Projects from './Components/Pages/Projects'
+import Footer from './Components/Footer'
 //import { Contact } from './Components/Pages/Contact'
 function App() {
   return (
+    <div>
     <div className='body'>
     <Router>
       <div className='header-container'>
@@ -27,6 +29,11 @@ function App() {
     </Router>
     
     </div>
+    <div className='footer'> 
+      <Footer/>
+    </div>
+    </div>
+    
     
   );
 }

@@ -3,47 +3,70 @@
     font-family: circularstd;
 }
 
+@font-face{
+    src: url(./fonts/Sen-Bold.ttf);
+    font-family: sen-bold;
+}
+
+@font-face{
+    src: url(./fonts/Sen-Regular.ttf);
+    font-family: sen-regular;
+}
+
+@font-face{
+    src: url(./fonts/LexendDeca-Regular.ttf);
+    font-family: lexenddeca;
+}
+
+
+
 /* TITLE-Container*/
 .title-container{
     display: grid;
     justify-items: left;
-    grid-gap: 7.5px;
+    grid-gap: 10px;
 }
 
 .name{
-    font-family: circularstd;
+    font-family: sen-bold;
     font-size: 25px;
     line-height: 20px;
 }
 
 .title{
-    font-family: circularstd;
+    font-family: sen-bold;
     font-size: 25px;
     line-height: 20px;
     
 }
 
 .goal{
-    font-family: circularstd;
+    font-family: sen-bold;
     font-size: 25px;
     line-height: 20px;
     color: orange;
 }
 
+.socials{
+    display: flex;
+    width: 100px;
+    justify-content: space-evenly;
+}
+
 /* Navbar-Container*/
 .navbar-container{
-    font-family: circularstd;
+    font-family: sen-bold;
     display: flex;
     flex-direction: column;
     justify-items: left;
     column-gap: 7.5px;
 }
 .navButton{
-    padding: 6px;
+    padding: 7.5px;
     line-height: 20px;
     background-color: transparent;
     font-size: 25px;
-    font-family: circularstd;
+    font-family: sen-bold;
     text-decoration: none;
     border: none;
     outline: none;
@@ -70,3 +93,22 @@
     transition: 1s;
     transform: translateX(25px);
 } 
+
+/* FOOTER CONTENTS */
+
+.footer-text{
+    font-family: sen-bold;
+    text-align: center;
+}
+
+.footer-socials{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.footer-size{
+    positon: relative;
+    height: 20px;
+    width: 20px;
+}
