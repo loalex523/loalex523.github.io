@@ -1,6 +1,6 @@
 import React from 'react'
 import './Components.css'
-import { Link, NavLink, Redirect } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 import { motion } from "framer-motion"
 
 function Navbar(){
