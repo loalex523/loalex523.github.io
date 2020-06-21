@@ -14,8 +14,8 @@
 }
 
 @font-face{
-    src: url(./fonts/LexendDeca-Regular.ttf);
-    font-family: lexenddeca;
+    src: url(./fonts/Now-SemiBold.otf);
+    font-family: now-bold;
 }
 
 
@@ -28,20 +28,20 @@
 }
 
 .name{
-    font-family: sen-bold;
+    font-family: now-bold;
     font-size: 25px;
     line-height: 20px;
 }
 
 .title{
-    font-family: sen-bold;
+    font-family: now-bold;
     font-size: 25px;
     line-height: 20px;
     
 }
 
 .goal{
-    font-family: sen-bold;
+    font-family: now-bold;
     font-size: 25px;
     line-height: 20px;
     color: orange;
@@ -55,7 +55,6 @@
 
 /* Navbar-Container*/
 .navbar-container{
-    font-family: sen-bold;
     display: flex;
     flex-direction: column;
     justify-items: left;
@@ -66,7 +65,7 @@
     line-height: 20px;
     background-color: transparent;
     font-size: 25px;
-    font-family: sen-bold;
+    font-family: now-bold;
     text-decoration: none;
     border: none;
     outline: none;
@@ -97,7 +96,7 @@
 /* FOOTER CONTENTS */
 
 .footer-text{
-    font-family: sen-bold;
+    font-family: now-bold;
     text-align: center;
 }
 
@@ -108,7 +107,7 @@
 }
 
 .footer-size{
-    positon: relative;
+    position: relative;
     height: 20px;
     width: 20px;
 }

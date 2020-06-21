@@ -6,7 +6,7 @@
 }
 
 .about-header{
-    font-family: sen-bold;
+    font-family: now-bold;
     font-size: 25px;
     text-align: left;
 }
@@ -22,13 +22,13 @@
 }
 
 .about-skills-header{
-    font-family: sen-bold;
+    font-family: now-bold;
     font-size: 25px;
     text-align: left;
     padding-top: 20px;
 }
 .skills-languages{
-    font-family: sen-bold;
+    font-family: sen-regular;
     font-size: 14.5px !important;
     justify-content: space-evenly;
     display: flex;
@@ -42,7 +42,7 @@ ul{
 
 /* PROJECTS PAGE */
 .projects-container{
-    font-family: sen-bold;
+    font-family: now-bold;
     display: flex;
     flex-direction: column;
 }
