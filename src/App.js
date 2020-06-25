@@ -4,7 +4,7 @@ import './App.css';
 import Title from './Components/Title'
 import Navbar from './Components/Navbar'
 import About from './Components/Pages/About'
-import Contact from './Components/Pages/Contact'
+// import Contact from './Components/Pages/Contact'
 import Projects from './Components/Pages/Projects'
 import Footer from './Components/Footer'
 //import { Contact } from './Components/Pages/Contact'
@@ -24,7 +24,7 @@ function App() {
     <Switch>
         <Route exact path="/" component={ Projects }/>  
         <Route exact path="/about" component={ About }/>
-        <Route exact path="/contact" component={ Contact }/>
+        {/* <Route exact path="/contact" component={ Contact }/> */}
       </Switch>
     </Router>
     

@@ -53,8 +53,9 @@ ul{
 }
 
 .projects-subheader{
-    font-size: 20px;
+    font-size: 21.5px;
 }
+
 
 /* Project 1*/
 .projects-1{
@@ -75,7 +76,7 @@ ul{
     height: 100%;
     opacity: 0;
     transition: .5s ease;
-    background-color: black;
+    background-color: #DBCFC7;
 }
 
 /*#FFDBCFC7*/
