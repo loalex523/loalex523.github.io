@@ -17,7 +17,6 @@ function Projects(){
                 </ProjectsComponents>
             </div>
             <div className='projects-header'> More Projects Coming Soon! </div>
-
         </div>
     )
 }

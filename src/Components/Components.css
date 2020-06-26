@@ -97,17 +97,24 @@
 
 .footer-text{
     font-family: now-bold;
+    font-size: 18.5px;
     text-align: center;
+    padding-bottom: 10px;
 }
 
 .footer-socials{
+    font-family: now-bold;
+    line-height: 20px;
     display: flex;
     flex-direction: row;
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
     justify-content: space-evenly;
+    margin-bottom: 20px;
 }
 
 .footer-size{
-    position: relative;
-    height: 20px;
-    width: 20px;
+    height: 25px;
+    width: 25px;
 }
