@@ -8,7 +8,7 @@ import email from './icons/email.png'
 function Footer(){
 
     return(
-        <div>
+        <div className='footer'>
             <div className='footer-text'> Feel free to connect with me! </div>
             <div className='footer-socials'> 
             <Socials url='https://github.com/loalex523' image={git} size='footer-size'/>
@@ -16,6 +16,7 @@ function Footer(){
                     <Socials url='https://www.instagram.com/alexjlo_/?hl=en' image={insta} size='footer-size'/>
                     <Socials url='mailto:loalex523@gmail.com' image={email} size='footer-size'/>
             </div>
+            <div className='footer-bottom'> Coded & designed by Alex Lo </div>
         </div>
     )
 }

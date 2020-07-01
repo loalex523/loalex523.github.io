@@ -5,7 +5,7 @@ function Projects(){
     return(
         <div className='projects-container'>
             <div className='projects-header'> Projects </div>
-            <div className='projects-subheader'> French Press | Mobile Application </div>
+            <div className='projects-subheader'> French Press </div>
             <div className='projects-1'>
                 <ProjectsComponents 
                     overlay="overlay"
