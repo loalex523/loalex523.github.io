@@ -11,7 +11,7 @@ function About(){
                     through an app, website, or any other medium of development. During my free time, I enjoy playing sports, hanging out with friends, watching movies and TV shows, traveling, and reading books.
             </div>
             <div className='about-skills-header'>
-                Skills
+                Relevant Technical Skills
             </div>
             <ul className='skills-languages'>
                     <li> Java </li>
