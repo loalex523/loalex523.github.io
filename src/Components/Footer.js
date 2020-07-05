@@ -9,7 +9,7 @@ function Footer(){
 
     return(
         <div className='footer'>
-            <div className='footer-text'> Lets build something together! </div>
+            <div className='footer-text'> Let's build something together! </div>
             <div className='footer-socials'> 
             <Socials url='https://github.com/loalex523' image={git} size='footer-size'/>
                     <Socials url='https://www.linkedin.com/in/alex-j-lo/' image={linkedin} size='footer-size'/>
