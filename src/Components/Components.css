@@ -61,6 +61,7 @@
     column-gap: 7.5px;
 }
 .navButton{
+    
     padding: 7.5px;
     line-height: 20px;
     background-color: transparent;
@@ -73,6 +74,7 @@
 }
 .navButton:after 
 {
+    opacity: 1.0;
     content: '';
     display: block;
     height: 3px;
@@ -84,11 +86,13 @@
 /* Change the width and background on hover, aka sliding from the middle to the left and right */
 .navButton:hover:after 
 {
+    opacity: 1;
     width: 100%;
     background: orange;
 }
 
 .nav-active{
+    opacity: 1.0;
     transition: 1s;
     transform: translateX(25px);
 } 

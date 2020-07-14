@@ -7,10 +7,10 @@ function Navbar(){
     return(
         <div className='navbar-container'>
             <NavLink  to="./" exact activeClassName='nav-active'>
-                <motion.button whileHover={{opacity: .5}} whileTap={{scale: 0.9}} className='navButton'>  Projects </motion.button>  
+                <motion.button whileHover={{opacity: .7}} whileTap={{scale: 0.9}} className='navButton'>  Projects </motion.button>  
             </NavLink>
             <NavLink to="./about" exact activeClassName='nav-active'>
-                <motion.button whileHover={{opacity: .5}} whileTap={{scale: 0.9}} className='navButton'> About Me </motion.button>
+                <motion.button whileHover={{opacity: .7}} whileTap={{scale: 0.9}} className='navButton'> About Me </motion.button>
             </NavLink>
             {/* <NavLink to="./contact" activeClassName='nav-active'>
                 <motion.button whileHover={{opacity: .5}} whileTap={{scale: 0.9}} className='navButton'> Contact </motion.button>            
