@@ -6,9 +6,10 @@ function ProjectsComponents(props){
             <a href={props.url}>
                 <img alt = "logo192.png" src={props.image} className='projects-1-image'></img>
                     <div className="overlay"> 
-                    <div className="overlay-text"> {props.description} </div>
+                    <div className="overlay-text"> {props.overlayText} </div>
                 </div>
             </a>
+            <div className="description"> {props.description} </div>
         </div>
     )
 }

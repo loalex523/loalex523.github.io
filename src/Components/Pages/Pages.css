@@ -2,6 +2,7 @@
 
 .about-container{
     display: flex;
+    font-family: now-bold;
     flex-direction: column;
 }
 
@@ -13,10 +14,9 @@
 
 .about-me{
     margin: 20px;
-    line-height: 20px;
-    font-size: 14.5px !important;
+    font-size: 17.5px !important;
+    font-family: now-bold;
     font-style: normal;
-    word-spacing: 2.5px;
 }
 
 .about-skills-header{
@@ -27,12 +27,12 @@
 }
 .skills-languages{
     
-    font-size: 14.5px !important;
+    font-size: 17.5px !important;
+    font-family: now-bold;
     justify-content: space-evenly;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    font-weight: 400;
 }
 ul{
     list-style: none;
@@ -54,10 +54,24 @@ ul{
     font-size: 21.5px;
 }
 
-
 /* Project 1*/
-.projects-1{
+.projects-1-container{
+    display: flex;
+    flex-direction: row;
+    height: 350px;
+    width: 100%;
+}
+.projects-description{
     margin-top: 10px;
+    margin-left: 12.5px;
+    font-size: 17.5px;
+    position: relative;
+    width: 50%;
+    flex-direction: end;
+    text-align: right;
+}
+.projects-1{
+    margin-top: 12.5px;
     position: relative;
     width: 50%;
     height: 350px;
@@ -92,6 +106,9 @@ ul{
     position: relative;
     color: white;
     font-size: 20px;
+    display: flex;
     text-align: center;
-    vertical-align: middle;
+    align-items: center;
+    flex-direction: column;
 }
+

@@ -6,17 +6,26 @@ function Projects(){
         <div className='projects-container'>
             <div className='projects-header'> Projects </div>
             <div className='projects-subheader'> French Press </div>
+            <div className='projects-1-container'>
             <div className='projects-1'>
                 <ProjectsComponents 
                     overlay="overlay"
                     url="https://github.com/acm-projects/French-Press" 
                     image="French Press Cover for Website.png" 
-                    description="A sleek mobile application that presents information about local coffee shops around Dallas-Fort-Worth metroplex. 
-                    French Press uses Google's Firebase as a database and
-                    a user authenticator along with Flutter for UI/UX purposes. ">
-                </ProjectsComponents>
+                    overlayText="
+                    Tools Used - Flutter, Firebase, Google Maps API, and Android Studio
+                    ">
+                </ProjectsComponents> 
             </div>
-            <div className='projects-header'> More Projects Coming Soon! </div>
+            <div className='projects-description'>
+                    A sleek mobile application that presents information about local coffee shops around the
+                    Dallas-Fort-Worth metroplex. French Press uses Google's Firebase as a database and for user authentication along
+                    with Flutter for UI/UX design.
+            </div>
+            </div>
+            
+            
+            {/* <div className='projects-header'> More Projects Coming Soon! </div> */}
         </div>
     )
 }
