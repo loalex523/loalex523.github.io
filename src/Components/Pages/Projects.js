@@ -13,16 +13,17 @@ function Projects(){
                     url="https://github.com/acm-projects/French-Press" 
                     image="French Press Cover for Website.png" 
                     overlayText="
-                    Tools Used - Flutter, Firebase, Google Maps API, and Android Studio
+                    Built using Flutter, Firebase, Google Maps API, and Android Studio
                     ">
                 </ProjectsComponents> 
             </div>
             <div className='projects-description'>
-                    A sleek mobile application that presents information about local coffee shops around the
-                    Dallas-Fort-Worth metroplex. French Press uses Google's Firebase as a database and for user authentication along
-                    with Flutter for UI/UX design.
+                A sleek mobile application that presents information from local coffee shops around the UT Dallas campus.   
             </div>
             </div>
+            
+
+            
             
             
             {/* <div className='projects-header'> More Projects Coming Soon! </div> */}

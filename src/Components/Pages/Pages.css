@@ -13,7 +13,7 @@
 }
 
 .about-me{
-    margin: 20px;
+    padding-top: 20px;
     font-size: 17.5px !important;
     font-family: now-bold;
     font-style: normal;
@@ -51,7 +51,7 @@ ul{
 }
 
 .projects-subheader{
-    font-size: 21.5px;
+    font-size: 20px;
 }
 
 /* Project 1*/
@@ -64,7 +64,7 @@ ul{
 .projects-description{
     margin-top: 10px;
     margin-left: 20px;
-    font-size: 17.5px;
+    font-size: 20px;
     position: relative;
     width: 50%;
     flex-direction: end;
@@ -105,10 +105,11 @@ ul{
 .overlay-text{
     position: relative;
     color: white;
-    font-size: 20px;
+    height: 350px;
+    font-size: 25px;
     display: flex;
     text-align: center;
     align-items: center;
-    flex-direction: column;
+    justify-content: center;
 }
 
