@@ -100,8 +100,9 @@
 /* FOOTER CONTENTS */
 
 .footer-text{
+    margin-top: 30px;
     font-family: now-bold;
-    font-size: 20px;
+    font-size: 17.5px;
     text-align: center;
     padding-bottom: 10px;
 }
