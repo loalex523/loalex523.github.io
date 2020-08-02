@@ -18,7 +18,7 @@ function Projects(){
                 </ProjectsComponents> 
             </div>
             <div className='projects-description'>
-                A sleek mobile application that presents information from local coffee shops around the UT Dallas campus.   
+                A sleek mobile application that presents information from local coffee shops around the UT Dallas campus
             </div>
             </div>
             

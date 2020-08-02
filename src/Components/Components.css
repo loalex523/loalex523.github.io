@@ -28,20 +28,20 @@
 }
 
 .name{
-    font-family: now-bold;
+    font-family: circularstd;
     font-size: 25px;
     line-height: 20px;
 }
 
 .title{
-    font-family: now-bold;
+    font-family: circularstd;
     font-size: 25px;
     line-height: 20px;
     
 }
 
 .goal{
-    font-family: now-bold;
+    font-family: circularstd;
     font-size: 25px;
     line-height: 20px;
     color: orange;
@@ -61,12 +61,11 @@
     column-gap: 7.5px;
 }
 .navButton{
-    
     padding: 7.5px;
     line-height: 20px;
     background-color: transparent;
     font-size: 25px;
-    font-family: now-bold;
+    font-family: circularstd;
     text-decoration: none;
     border: none;
     outline: none;
@@ -100,15 +99,14 @@
 /* FOOTER CONTENTS */
 
 .footer-text{
-    margin-top: 30px;
-    font-family: now-bold;
+    font-family: circularstd;
     font-size: 17.5px;
     text-align: center;
     padding-bottom: 10px;
 }
 
 .footer-socials{
-    font-family: now-bold;
+    font-family: circularstd;
     line-height: 20px;
     display: flex;
     flex-direction: row;
