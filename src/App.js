@@ -11,7 +11,7 @@ import Footer from './Components/Footer'
 function App() {
   return (
     <div>
-    <div className='body'>
+    <div className='body body-media'>
     <Router>
       <div className='header-container'>
         <div className='title-container'>

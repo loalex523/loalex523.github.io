@@ -23,3 +23,15 @@
     margin-bottom: 50px;
     width: 100%;
 }
+
+@media only screen and (max-device-width: 750px){
+    .body{
+        padding: 25px;
+        display: block;
+    }
+    
+    .footer{
+       padding-left: 125px;
+       padding-right: 125px;
+    }
+}
