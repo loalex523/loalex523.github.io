@@ -9,7 +9,7 @@ function About(){
             <div className='about-me'>
                     I'm an aspiring software engineer based in the Dallas-Fort Worth area. Currently, I'm a junior majoring in software engineering at The University of Texas at Dallas. I enjoy creating applications for the sake of improving people's lives, whether that'd be 
                     through an app, website, or any other medium of development. During my free time, I enjoy playing sports, hanging out with friends, watching movies and TV shows, traveling, and reading books. 
-                    I will be interning at Goldman Sachs for the summer of 2021! 
+                    I will be an intern at Goldman Sachs for the summer of 2021! 
             </div>
             <div className='about-skills-header'>
                 Relevant Technical Skills
