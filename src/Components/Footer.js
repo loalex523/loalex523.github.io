@@ -16,7 +16,7 @@ function Footer(){
                     <Socials url='https://www.instagram.com/alexjlo_/?hl=en' image={insta} size='footer-size'/>
                     <Socials url='mailto:loalex523@gmail.com' image={email} size='footer-size'/>
             </div>
-            <div className='footer-bottom'> Coded by Alex Lo </div>
+            <div className='footer-bottom'> Made by Alex Lo </div>
         </div>
     )
 }
