@@ -11,26 +11,26 @@ import Footer from './Components/Footer'
 function App() {
   return (
     <div>
-    <div className='body body-media'>
-    <Router>
-      <div className='header-container'>
-        <div className='title-container'>
-        <Title/>
+      <div className='body'>
+      <Router>
+        <div className='header-container'>
+          <div className='title-container'>
+          <Title/>
+        </div>
+        <div className='navbar-box'>
+          <Navbar/>      
+        </div>
       </div>
-      <div className='navbar-box'>
-        <Navbar/>      
+      <Switch>
+          <Route exact path="/" component={ Projects }/>  
+          <Route exact path="/about" component={ About }/>
+          {/* <Route exact path="/contact" component={ Contact }/> */}
+      </Switch>
+      </Router>
       </div>
-    </div>
-    <Switch>
-        <Route exact path="/" component={ Projects }/>  
-        <Route exact path="/about" component={ About }/>
-        {/* <Route exact path="/contact" component={ Contact }/> */}
-    </Switch>
-    </Router>
-    </div>
-    <div className='footer'> 
-      <Footer/>
-    </div>
+      <div className='footer'> 
+        <Footer/>
+      </div>
     </div>
     
     

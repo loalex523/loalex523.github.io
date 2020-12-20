@@ -21,8 +21,6 @@ function About(){
                     <li> Dart </li>
                     <li> HTML </li>
                     <li> CSS </li>
-            </ul>
-            <ul className='skills-languages'>
                     <li> React </li>
                     <li> Flutter </li>
                     <li> Node.js </li>
@@ -34,11 +32,14 @@ function About(){
                     <li> Programming Fundamentals </li>
                     <li> Computer Science I & II </li>
                     <li> Discrete Math I & II </li>
-                   
-            </ul>
-            <ul className='skills-languages'>
-            <li> Probability and Statistics for Computer Scientists   </li>
+                    <li> C & C++ Programing in a UNIX Environment </li>
+                    <li> Programming Fundamentals </li>
+                    <li> Computer Science I & II </li>
+                    <li> Discrete Math I & II </li>
+                    <li> Probability and Statistics for Computer Scientists   </li>
                     <li> Computer Architecture </li>
+                    <li> Software Engineering </li>
+                    <li> Data Structures & Algorithms </li>
             </ul>
         </div>
     )

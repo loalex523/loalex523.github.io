@@ -21,11 +21,6 @@ function Projects(){
                 A sleek mobile application that presents information from local coffee shops around the UT Dallas campus
             </div>
             </div>
-            
-
-            
-            
-            
             {/* <div className='projects-header'> More Projects Coming Soon! </div> */}
         </div>
     )
