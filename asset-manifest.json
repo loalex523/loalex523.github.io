@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.b8f7c9e2.chunk.css",
+    "main.js": "/static/js/main.2c05d874.chunk.js",
+    "main.js.map": "/static/js/main.2c05d874.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.e5fc83a6.js",
+    "runtime-main.js.map": "/static/js/runtime-main.e5fc83a6.js.map",
+    "static/js/2.3dbc96eb.chunk.js": "/static/js/2.3dbc96eb.chunk.js",
+    "static/js/2.3dbc96eb.chunk.js.map": "/static/js/2.3dbc96eb.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.bb021e5a40e498923d665e7885720a16.js": "/precache-manifest.bb021e5a40e498923d665e7885720a16.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.b8f7c9e2.chunk.css.map": "/static/css/main.b8f7c9e2.chunk.css.map",
+    "static/js/2.3dbc96eb.chunk.js.LICENSE.txt": "/static/js/2.3dbc96eb.chunk.js.LICENSE.txt",
+    "static/media/Components.css": "/static/media/Sen-Regular.c92d05eb.ttf",
+    "static/media/avatar.png": "/static/media/avatar.6adac26e.png",
+    "static/media/email.png": "/static/media/email.fc856ea2.png",
+    "static/media/github.png": "/static/media/github.535f27f3.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e5fc83a6.js",
+    "static/js/2.3dbc96eb.chunk.js",
+    "static/css/main.b8f7c9e2.chunk.css",
+    "static/js/main.2c05d874.chunk.js"
+  ]
+}
