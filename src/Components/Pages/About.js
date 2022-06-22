@@ -1,16 +1,21 @@
 import React from 'react'
 import './Pages.css'
-function About(){
+import graduated from '../icons/avatar.png'
+function About(){  
+    const imageStyles = { width: 500, height: 300 };
+
     return(
+        <div className='container'>
+        <img  className='about-image' src={graduated}></img>
         <div className='about-container'>
             <div className='about-header'>
                 Welcome to my website!
-            </div>
+            </div>                
             <div className='about-me'>
-                    I'm an aspiring software engineer based in the Dallas-Fort Worth area. Currently, I'm a junior majoring in software engineering at The University of Texas at Dallas. I enjoy creating applications for the sake of improving people's lives, whether that'd be 
-                    through an app, website, or any other medium of development. During my free time, I enjoy playing sports, hanging out with friends, watching movies and TV shows, traveling, and reading books. 
-                    I will be an intern at Goldman Sachs for the summer of 2021! 
+                    I recently graduated from the University of Texas at Dallas with a degree in Software Engineering! During my free time, I enjoy playing sports, hanging out with friends, watching movies and TV shows, traveling, and reading books. 
+                    Starting in late-July, I will be starting my full-time position at Goldman Sachs where I'll be working as a software engineer. 
             </div>
+            
             <div className='about-skills-header'>
                 Relevant Technical Skills
             </div>
@@ -25,6 +30,7 @@ function About(){
                     <li> Flutter </li>
                     <li> Node.js </li>
             </ul>
+            
             <div className='about-skills-header'>
                 Relevant Coursework
             </div>
@@ -41,7 +47,10 @@ function About(){
                     <li> Software Engineering </li>
                     <li> Data Structures & Algorithms </li>
             </ul>
+
         </div>
+        </div>
+       
     )
 }
 export default About;

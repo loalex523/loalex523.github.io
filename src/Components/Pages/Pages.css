@@ -1,5 +1,15 @@
 /* ABOUT PAGE */
-
+.container{
+    display: flex;
+    flex-direction: row;
+}
+.about-image{
+    width: 200px;
+    height: 200px;
+    display: flex;
+    align-items: flex-start;
+    padding-right: 80px;
+}
 .about-container{
     display: flex;
     font-family: circularstd;
@@ -58,15 +68,11 @@ ul{
 .projects-1-container{
     display: flex;
     flex-direction: row;
-    height: 350px;
     width: 100%;
 }
 .projects-description{
-    margin-top: 10px;
-    margin-left: 20px;
     font-size: 20px;
     position: relative;
-    width: 50%;
     flex-direction: end;
     text-align: right;
 }
@@ -74,7 +80,7 @@ ul{
     margin-top: 12.5px;
     position: relative;
     width: 50%;
-    height: 350px;
+    height: 200px;
 }
 
 .overlay{
@@ -113,18 +119,16 @@ ul{
     justify-content: center;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1170px) {
     .projects-1{
-        position: relative;
         height: 200px;
     }
 
     .projects-1-container{
         display: flex;
         flex-direction: row;
-        height: 200px;
     }
-    
+/*     
     .projects-1:hover .overlay{
         opacity: .9;
     }
@@ -133,9 +137,9 @@ ul{
         position: absolute;
         width: 100%;
         height: 100%;
-    }
+    } */
     
-    .overlay{
+    /* .overlay{
         position: absolute;
         top: 0;
         bottom: 0;
@@ -157,7 +161,7 @@ ul{
         text-align: center;
         align-items: center;
         justify-content: center;
-    }
+    } */
 
 
     /*About Me Mobile*/
@@ -170,7 +174,7 @@ ul{
     .about-header{
         font-family: circularstd;
         font-size: 25px;
-        text-align: center;
+        text-align: left;
     }
     
     .about-me{
@@ -178,13 +182,13 @@ ul{
         font-size: 17.5px !important;
         font-family: circularstd;
         font-style: normal;
-        text-align: center;
+        text-align: left;
     }
     
     .about-skills-header{
         font-family: circularstd;
         font-size: 25px;
-        text-align: center;
+        text-align: left;
         padding-top: 20px;
     }
     .skills-languages{
@@ -195,6 +199,6 @@ ul{
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
-        text-align: center;
+        text-align: left;
     }
 }
