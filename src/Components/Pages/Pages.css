@@ -120,6 +120,19 @@ ul{
 }
 
 @media screen and (max-width: 1170px) {
+    .container{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .about-image{
+        width: 200px;
+        height: 200px;
+        display: flex;
+        align-items: flex-start;
+        padding-right: 0px;
+        padding-bottom: 50px;
+    }
     .projects-1{
         height: 200px;
     }
