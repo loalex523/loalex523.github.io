@@ -22,15 +22,6 @@ function Projects(){
                 This was a mobile application that I worked on alongside four other student developers during my Spring 2020 semester at UT Dallas. The application provides information regarding local coffee shops surrounding the UT Dallas area using technologies such as Flutter and Firebase.
             </div>
             </div>
-            <ProjectsComponents title="Loopy" link="https://loalex523.github.io/loopy/"/>
-            <div className='projects-1-container'>
-            <div className='projects-1'>
-            </div>
-            <div className='projects-description'>
-                Simple interactive loopback player application which allows users to save specific timeframes within videos with the purpose of 'looping' the videos back to their specific initial starting point. Built using React and TailwindCSS. 
-            </div>
-            </div>
-            
             {/* <div className='projects-header'> More Projects Coming Soon! </div> */}
         </div>
     )
