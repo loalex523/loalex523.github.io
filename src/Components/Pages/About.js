@@ -2,11 +2,9 @@ import React from 'react'
 import './Pages.css'
 import graduated from '../icons/avatar.png'
 function About(){  
-    const imageStyles = { width: 500, height: 300 };
-
     return(
         <div className='container'>
-        <img  className='about-image' src={graduated}></img>
+        <img  className='about-image' src={graduated} alt="graduation pic!"></img>
         <div className='about-container'>
             <div className='about-header'>
                 Welcome to my website!
