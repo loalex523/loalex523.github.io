@@ -16,12 +16,12 @@ self.__precacheManifest = [
     "url": "/static/js/runtime~main.229c360f.js"
   },
   {
-    "revision": "f7e19def91dc7d0a145dcf8fcec4cc8a",
-    "url": "/static/media/Sen-Bold.f7e19def.ttf"
-  },
-  {
     "revision": "4fcdd97fadc3a1d9887f816f2aa67f1d",
     "url": "/static/media/CircularStd-Medium.4fcdd97f.otf"
+  },
+  {
+    "revision": "f7e19def91dc7d0a145dcf8fcec4cc8a",
+    "url": "/static/media/Sen-Bold.f7e19def.ttf"
   },
   {
     "revision": "54a4499ad70d76baf406529425375857",
