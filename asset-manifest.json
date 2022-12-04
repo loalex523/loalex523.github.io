@@ -1,26 +1,17 @@
 {
-  "files": {
-    "main.css": "/static/css/main.3051c06d.chunk.css",
-    "main.js": "/static/js/main.476f6a88.chunk.js",
-    "main.js.map": "/static/js/main.476f6a88.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.e5fc83a6.js",
-    "runtime-main.js.map": "/static/js/runtime-main.e5fc83a6.js.map",
-    "static/js/2.d4ba62bd.chunk.js": "/static/js/2.d4ba62bd.chunk.js",
-    "static/js/2.d4ba62bd.chunk.js.map": "/static/js/2.d4ba62bd.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.56519f0ff092a95b663e2ea13231e7e9.js": "/precache-manifest.56519f0ff092a95b663e2ea13231e7e9.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.3051c06d.chunk.css.map": "/static/css/main.3051c06d.chunk.css.map",
-    "static/js/2.d4ba62bd.chunk.js.LICENSE.txt": "/static/js/2.d4ba62bd.chunk.js.LICENSE.txt",
-    "static/media/Components.css": "/static/media/Sen-Regular.c92d05eb.ttf",
-    "static/media/avatar.png": "/static/media/avatar.6adac26e.png",
-    "static/media/email.png": "/static/media/email.fc856ea2.png",
-    "static/media/github.png": "/static/media/github.535f27f3.png"
-  },
-  "entrypoints": [
-    "static/js/runtime-main.e5fc83a6.js",
-    "static/js/2.d4ba62bd.chunk.js",
-    "static/css/main.3051c06d.chunk.css",
-    "static/js/main.476f6a88.chunk.js"
-  ]
+  "main.css": "/static/css/main.1b7e7107.chunk.css",
+  "main.js": "/static/js/main.ef77b680.chunk.js",
+  "main.js.map": "/static/js/main.ef77b680.chunk.js.map",
+  "static/js/1.53c27dbe.chunk.js": "/static/js/1.53c27dbe.chunk.js",
+  "static/js/1.53c27dbe.chunk.js.map": "/static/js/1.53c27dbe.chunk.js.map",
+  "runtime~main.js": "/static/js/runtime~main.229c360f.js",
+  "runtime~main.js.map": "/static/js/runtime~main.229c360f.js.map",
+  "static/media/Components.css": "/static/media/Now-SemiBold.54a4499a.otf",
+  "static/media/avatar.png": "/static/media/avatar.6adac26e.png",
+  "static/media/github.png": "/static/media/github.535f27f3.png",
+  "static/media/email.png": "/static/media/email.fc856ea2.png",
+  "static/css/main.1b7e7107.chunk.css.map": "/static/css/main.1b7e7107.chunk.css.map",
+  "index.html": "/index.html",
+  "precache-manifest.53b9a54e5554a0791c364f459a431dbd.js": "/precache-manifest.53b9a54e5554a0791c364f459a431dbd.js",
+  "service-worker.js": "/service-worker.js"
 }
