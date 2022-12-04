@@ -24,12 +24,12 @@ self.__precacheManifest = [
     "url": "/static/media/Sen-Bold.f7e19def.ttf"
   },
   {
-    "revision": "54a4499ad70d76baf406529425375857",
-    "url": "/static/media/Now-SemiBold.54a4499a.otf"
-  },
-  {
     "revision": "c92d05ebbdb4c63d69dc1c119a69e0ee",
     "url": "/static/media/Sen-Regular.c92d05eb.ttf"
+  },
+  {
+    "revision": "54a4499ad70d76baf406529425375857",
+    "url": "/static/media/Now-SemiBold.54a4499a.otf"
   },
   {
     "revision": "6adac26e4d2281d4c4109fb043fceac9",
